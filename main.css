@@ -42,7 +42,8 @@ pre,
 .p,
 .ol,
 .ul,
-.figure {
+.figure
+.pre {
   margin: 0;
   padding: 0;
   word-break: break-all;
@@ -190,6 +191,26 @@ image,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tl {
+  top: var(--main_gap);
+  left: var(--main_gap);
+}
+
+.tr {
+  top: var(--main_gap);
+  right: var(--main_gap);
+}
+
+.bl {
+  bottom: var(--main_gap);
+  left: var(--main_gap);
+}
+
+.br {
+  bottom: var(--main_gap);
+  right: var(--main_gap);
 }
 
 .overflow {
@@ -592,6 +613,14 @@ image,
   padding-left: 320px;
 }
 
+.padding {
+  padding: var(--main_gap);
+}
+
+.margin {
+  margin: var(--main_gap);
+}
+
 .mtmg {
   margin-top: var(--main_gap);
 }
@@ -622,6 +651,18 @@ image,
 
 .prmg {
   padding-right: var(--main_gap);
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.my-auto {
+  margin: auto 0;
 }
 
 .m-0 {
