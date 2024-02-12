@@ -92,6 +92,8 @@ footer,
 }
 
 view,
+navigator,
+scroll-view,
 div,
 button,
 .btn,
@@ -102,6 +104,7 @@ textarea,
   outline: none;
   border: none;
   resize: none;
+  box-sizing: border-box;
 }
 
 input,
